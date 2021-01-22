@@ -1,6 +1,6 @@
 {
   "name": "publication-selector",
-  "version": "1.0.0",
+  "version": "0.0.1-alpha.0",
   "description": "Publication selector tile for Fidgets project",
   "source": "src/index.ts",
   "main": "dist/index.js",
