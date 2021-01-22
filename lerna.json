@@ -8,7 +8,7 @@
     "publish": {
       "ignoreChanges": ["ignored-file", "*.md"],
       "message": "chore(release): publish",
-      "registry": "https://flipplib.jfrog.io/flipplib/api/npm/flipp-npm/"
+      "registry": "https://npm.pkg.github.com"
     },
     "bootstrap": {
       "ignore": "component-*",
