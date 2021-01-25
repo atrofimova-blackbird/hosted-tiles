@@ -1,0 +1,33 @@
+{
+  "name": "publication-selector",
+  "version": "0.0.0",
+  "description": "Publication selector component for Fidgets project",
+  "author": "Anna Trofimova <v-atrofimova@flipp.com>",
+  "homepage": "https://github.com/atrofimova-blackbird/hosted-tiles#readme",
+  "license": "ISC",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://flipplib.jfrog.io/flipplib/api/npm/flipp-npm/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atrofimova-blackbird/hosted-tiles.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "start": "tsc"
+  },
+  "bugs": {
+    "url": "https://github.com/atrofimova-blackbird/hosted-tiles/issues"
+  },
+  "dependencies": {
+    "typescript": "^4.1.3"
+  }
+}
