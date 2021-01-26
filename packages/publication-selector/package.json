@@ -22,7 +22,7 @@
   },
   "scripts": {
     "test": "echo \"ANNA=======\" && exit 1",
-    "build": "tsc"
+    "build": "tsc --module commonjs"
   },
   "bugs": {
     "url": "https://github.com/atrofimova-blackbird/hosted-tiles/issues"
