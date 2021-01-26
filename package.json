@@ -9,6 +9,6 @@
     "test": "lerna run test",
     "clean": "rimraf packages/**/lib",
     "bootstrap": "lerna bootstrap --hoist",
-    "publish": "lerna version && lerna publish"
+    "publish": "lerna publish"
   }
 }
