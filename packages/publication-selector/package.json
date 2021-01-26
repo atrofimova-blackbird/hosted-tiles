@@ -22,7 +22,7 @@
   },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1",
-    "start": "tsc"
+    "build": "tsc"
   },
   "bugs": {
     "url": "https://github.com/atrofimova-blackbird/hosted-tiles/issues"
