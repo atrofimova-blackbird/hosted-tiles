@@ -21,9 +21,8 @@
     "url": "git+https://github.com/atrofimova-blackbird/hosted-tiles.git"
   },
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1",
-    "build": "tsc",
-    "publish": "lerna version && lerna publish"
+    "test": "echo \"ANNA=======\" && exit 1",
+    "build": "tsc"
   },
   "bugs": {
     "url": "https://github.com/atrofimova-blackbird/hosted-tiles/issues"
