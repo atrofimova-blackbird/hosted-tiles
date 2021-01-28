@@ -1,0 +1,165 @@
+flipp-publication .flipp-publication-container {
+  align-items: center;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+  width: 100%;
+  max-width: 375px;
+  padding: 0 6%;
+  box-sizing: border-box;
+}
+
+flipp-publication .flipp-publication-image {
+  align-self: center;
+  height: 169px;
+  overflow-y: hidden;
+  position: relative;
+  width: 100%;
+}
+
+flipp-publication .flipp-publication-image img {
+  display: block;
+  height: auto;
+  width: 100%;
+}
+
+flipp-publication .flipp-publication-details {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0 13px 0;
+  width: 100%;
+}
+
+flipp-publication .flipp-publication-info {
+  display: flex;
+  flex-flow: row wrap;
+  height: 45px;
+  flex: 1 0;
+}
+
+flipp-publication .flipp-publication-header {
+  color: #4d4d4d;
+  flex-basis: 100%;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 16px;
+  margin: 0;
+  align-self: center;
+}
+
+flipp-publication flipp-validity-dates {
+  color: #4d4d4d;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 16px;
+}
+
+flipp-publication .flipp-publication-button {
+  background: #ffffff;
+  border: 1px solid #d6d6d6;
+  box-sizing: border-box;
+  border-radius: 100px;
+  flex-grow: 1;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 14px;
+  width: 100px;
+  max-width: 100px;
+  height: 32px;
+  color: #4d4d4d;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  justify-content: center;
+}
+
+flipp-publication
+  .flipp-publication-container.selected-publication
+  .flipp-publication-button {
+  background: #1a75cf;
+  border: none;
+  color: #ffffff;
+}
+
+flipp-publication .flipp-drop-down-pub-badge-wrapper {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 100;
+}
+
+flipp-publication
+  .flipp-publication-container.flipp-skeleton-publication
+  .flipp-publication-image {
+  background-color: #c6c6c6;
+}
+
+flipp-publication
+  .flipp-publication-container.flipp-skeleton-publication
+  .flipp-publication-header {
+  background-color: #c6c6c6;
+  height: 16px;
+  width: 50px;
+}
+
+flipp-publication
+  .flipp-publication-container.flipp-skeleton-publication
+  .flipp-publication-dates {
+  background-color: #c6c6c6;
+  height: 19px;
+  width: 160px;
+}
+
+flipp-publication
+  .flipp-publication-container.flipp-skeleton-publication
+  .flipp-publication-button {
+  display: none;
+}
+
+flipp-publication .hidden {
+  display: none;
+}
+
+flipp-publication .selected-label {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  align-items: center;
+  text-align: center;
+  color: #4d4d4d;
+  width: 100px;
+}
+
+/*FlippLinkButton styles*/
+
+.flipp-link-button {
+    display: inline-block;
+    border: 1px solid #000;
+    background-color: #fff;
+    color: #000;
+    height: 30px;
+    padding: 0 18px;
+    border-radius: 15px;
+    font-weight: 700;
+    text-align: center;
+    white-space: nowrap;
+    transition-property: background-color, opacity, border-color, color;
+    transition-duration: 0.12s;
+    transition-timing-function: ease-out;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 30px;
+    margin: 16px 0px;
+}
+
+.flipp-link-button:hover {
+    color: #6d6e71;
+    border: 1px solid #9d9fa2;
+}
+

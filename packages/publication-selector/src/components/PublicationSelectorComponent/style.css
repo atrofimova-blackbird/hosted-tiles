@@ -1,0 +1,33 @@
+flipp-publications {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+}
+
+flipp-publications ul {
+  list-style: none;
+  padding: 0;
+  margin: 13px 0;
+}
+
+flipp-publications > div {
+  max-width: 380px;
+  flex-grow: 1;
+}
+
+flipp-publications > div > h2 {
+  text-align: center;
+  margin-bottom: 0px;
+  font-weight: normal;
+}
+
+flipp-publications .divider {
+  width: 90%;
+  border: 1px solid #eeeeee;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+flipp-publications li:last-child .divider {
+  display: none;
+}

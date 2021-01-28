@@ -5,7 +5,7 @@
   "author": "Anna Trofimova <v-atrofimova@flipp.com>",
   "homepage": "https://github.com/atrofimova-blackbird/hosted-tiles#readme",
   "license": "ISC",
-  "main": "lib/index.js",
+  "main": "lib/PublicationSelectorComponent/index.js",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
