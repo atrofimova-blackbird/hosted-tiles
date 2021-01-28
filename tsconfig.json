@@ -1,24 +1,21 @@
 {
   "compilerOptions": {
-    "module": "esnext",
-    "target": "esnext",
     "sourceMap": true,
     "declaration": true,
-
-
-
-
     "alwaysStrict": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "target": "esnext",
+    "jsx": "react",
+    "jsxFactory": "h",
     "experimentalDecorators": true,
     "importHelpers": true,
     "noEmitHelpers": true,
     "removeComments": false,
     "strict": true,
     "esModuleInterop": true,
-    "incremental": true
-  },
+    "incremental": true,
 
-  "exclude": [
-    "node_modules"
-  ]
+  },
+  "exclude": ["node_modules"]
 }
